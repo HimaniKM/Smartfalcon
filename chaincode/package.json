@@ -1,0 +1,14 @@
+{
+  "name": "asset-management-chaincode",
+  "version": "1.0.0",
+  "description": "Asset Management Chaincode",
+  "main": "assetManagement.js",
+  "scripts": {
+      "start": "node assetManagement.js"
+  },
+  "dependencies": {
+      "fabric-contract-api": "^2.0.0",
+      "fabric-shim": "^2.0.0",
+      "fabric-ca-client":""
+  }
+}
